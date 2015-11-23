@@ -18,10 +18,10 @@ core.mesh           = require('./mesh');
  * @memberof PIXI
  * @property {PIXI.loaders.Loader}
  */
-core.loader = new core.loaders.Loader();
+//core.loader = new core.loaders.Loader();
 
 // mixin the deprecation features.
-Object.assign(core, require('./deprecation'));
+//Object.assign(core, require('./deprecation'));
 
 // Always export pixi globally.
 global.PIXI = core;

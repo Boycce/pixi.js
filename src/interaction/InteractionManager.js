@@ -849,5 +849,5 @@ InteractionManager.prototype.destroy = function () {
     this._tempPoint = null;
 };
 
-core.WebGLRenderer.registerPlugin('interaction', InteractionManager);
+//core.WebGLRenderer.registerPlugin('interaction', InteractionManager);
 core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
